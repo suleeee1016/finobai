@@ -1,0 +1,13 @@
+<svg width="140" height="40" viewBox="0 0 140 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Finoba text -->
+  <text x="8" y="28" fill="#10B981" font-family="Arial, sans-serif" font-size="22" font-weight="bold">finoba</text>
+  
+  <!-- 'ai' background circle -->
+  <circle cx="120" cy="20" r="16" fill="#10B981"/>
+  
+  <!-- 'ai' text in white -->
+  <text x="120" y="26" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ai</text>
+  
+  <!-- Small decorative dot -->
+  <circle cx="102" cy="12" r="3" fill="#10B981" opacity="0.8"/>
+</svg>
