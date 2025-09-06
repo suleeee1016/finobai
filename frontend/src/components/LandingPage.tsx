@@ -28,7 +28,6 @@ const LandingPage: React.FC = () => {
                   <img src="/images/finobaai.png" alt="Finobai" className="h-12 drop-shadow-lg" />
                   <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-0 group-hover:opacity-20 transition duration-300"></div>
                 </div>
-                <span className="text-white font-bold text-xl tracking-wide">Finobai</span>
               </Link>
             </div>
 
@@ -1209,7 +1208,7 @@ const LandingPage: React.FC = () => {
           
           <div className="border-t border-white/10 mt-12 pt-8 text-center">
             <p className="text-blue-200">
-              &copy; 2025 Finobai. Tüm hakları saklıdır. Made with ❤️ in Turkey
+              &copy; 2025 Finobai. Tüm hakları saklıdır.
             </p>
           </div>
         </div>

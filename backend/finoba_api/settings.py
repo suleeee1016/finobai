@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-o#dln5&fr2#s*+y4dsg4^a)r@_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', 'finoba.ai', '91.151.94.232']
 
 
 # Application definition
@@ -158,9 +158,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3001",  # React development server (alternative port)
     "http://127.0.0.1:3000",
     "http://127.0.0.1:3001",
+    "http://finoba.ai",       # Production domain without SSL
+    "https://finoba.ai",      # Production domain with SSL (future)
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development
+CORS_ALLOW_ALL_ORIGINS = False  # Production security
 CORS_ALLOW_CREDENTIALS = True
 
 # Time zone
